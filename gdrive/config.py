@@ -2,16 +2,15 @@
 
 
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = ""  # Separated by space.
-    SUPPORT_CHAT_LINK = ""
+    BOT_TOKEN = "5855984053:AAFsuVwZlMjnYnTWd3ZRFxQ0t_I-Gn8Xdrk"
+    APP_ID = "7234399"
+    API_HASH = "1c521005e55c95e6973ae714d2e9e424"
+    DATABASE_URL = "postgres://uraretps:5gpcxENvA2u8BDcggxh-SKLJ40gM4Q5j@dumbo.db.elephantsql.com/uraretps"
+    SUDO_USERS = "" # Separated by space.
+    SUPPORT_CHAT_LINK = "-1001855562968"
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-
+    G_DRIVE_CLIENT_ID = "453316533297-terrgoogeu3vlldm63hlbh551ha7lshj.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
 
 class BotCommands:
     Download = ["download", "dl"]
